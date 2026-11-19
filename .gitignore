@@ -1,0 +1,4 @@
+﻿build/
+*.apk
+__pycache__/
+libcandycrushsaga.so

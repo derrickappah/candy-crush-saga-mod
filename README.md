@@ -28,7 +28,9 @@ instrumentation — the game runs exactly as King ships it apart from the bytes 
 | 12 | `0x2abb69c` | every finished level is scored as a **win** — enter a level and leave again to skip it |
 
 Full instruction-level table with the original bytes and the reasoning is in
-[docs/patches.md](docs/patches.md).
+[docs/patches.md](docs/patches.md). A start-to-finish reproduction guide for every mod —
+acquisition, how each site is located, verification and rollback — is in
+[docs/recreating-the-mods.md](docs/recreating-the-mods.md).
 
 ## Screenshots
 

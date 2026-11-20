@@ -15,6 +15,13 @@ instrumentation — the game runs exactly as King ships it apart from the bytes 
 | Engine | King "Fiction" (native C++), not Unity |
 | Library | `libcandycrushsaga.so`, 84,485,416 bytes, `.text` vaddr == file offset |
 
+## Download
+
+A built, signed APK is attached to the latest release:
+[CandyCrushMod-1.325.0.1.apk](https://github.com/derrickappah/candy-crush-saga-mod/releases/latest)
+(156,201,567 bytes, SHA-256 `1b24ba7c7606df0305e8453fccad3fa3cf2038fce933f0791c2e2ee56725685e`,
+checksum file alongside). It is too large for the git tree, which is why it lives there.
+
 ## What it does
 
 | # | Site | Effect |

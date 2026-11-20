@@ -1,0 +1,34 @@
+0x1eccf04	locale	Override slayer locales of this device
+ locale - print status
+ locale <2-char-code> - set locale code
+ locale 0 - reset 
+0x1f6d668	itemscollectedingame	Lists the number of candies/items collected in the current level. Used for testing collection liveops.
+0x21fb5cc	redeem	Spoof receiving a redeem code
+0x22ffa88	ssd-inv	Show the server synchronized booster inventory
+0x233802c	tud	Display all shared data
+0x23380c8	tudupd	Do random stuff
+0x2338164	tudclear	Clear vectors
+0x2338200	tudreset	Recreate test containers
+0x233829c	tudhot	Mark tud 2 hot
+0x2338338	tudstats	Container statistics
+0x23383d4	tudsyncmodified	Sync modified containers
+0x2338470	tudsync	Sync all containers
+0x234b90c	toast	Usage: toast [type] [icon] [enableButtons] [message](...)|([from] [to] [max])
+0x28d7eac	net.delay	Delays all outgoing requests an extra x milliseconds. An optional filter can be added so the delay only applies to some 
+0x28d7f40	net.timeout.in	The request will always respond with timeout, even if it succeeds serverside.
+Syntax: net.timeout.in <content filter>
+0x28d7fd4	net.replace	The request will have its response content replaced.
+Syntax: net.replace <content filter> <replace from> <replace with>
+0x28d80fc	net.filters	Shows all current filters. Optionally removes a filter.
+Syntax: net.filters [remove (all | <index>)]
+0x28e1c6c	safearea	Queries/updates the safe area manually.
+Usage:
+safearea
+safearea <top> <bottom> <left> <right>
+safearea visible [on]/off
+0x296fcd4	shieldo	shieldo list|execute|request|transitionlog|modify [placement] [provider] [factor]
+0x29c8a6c	makemove	Makes a move
+0x29c8af4	bestmove	Shows best move
+0x29c8b7c	refreshgameupdatersettings	Force refresh game updater settings by re-reading from the configs
+0x29c8c04	boosterRefactoring	Tells if current booster flow is refatored one or not.
+0x29ee35c	pepper	Set number of moves left until pepper bombs explode.

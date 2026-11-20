@@ -1,0 +1,210 @@
+0x2208b54	syncevent	Forces a server sync
+0x220b60c	on	Incorrect number of parameters
+0x220b6b0	off	Logs are: 
+0x220da58	num_deducted_moves_per_level	Deducted moves per level need to be at least 1
+0x220f484	days_away	Reward for specified tier doesn't exist
+0x2210640	roundlogger	Prints out all recorded moves
+0x2247284	navbar	Name of the tab or tab index (0-based)
+0x22472a0	tabInput	Name of the tab or tab index (0-based)
+0x2255040	vector	Can't clean CCancellableMap while looping over its contents
+0x225ed6c	levelOrdinal	Ordinal level of destination
+0x225f30c	duration_swap	Time between two swap
+0x225f6e8	scene_swap	Swap the mod scene
+0x2260158	exclusivity	Level Pin System Exclusivity:
+0x2261004	hide_all_mods	Force hide all mods
+0x2261bcc	hide_all_speech_bubbles	Force hide all speech bubbles
+0x228db44	mapanim	Triggers the OnBackToMap animation event
+0x228de90	mapautoscroll	Map autoscroll commands: 
+start [velocity(optional)]: Start auto scroll with giv
+0x228f2f8	mapCamera	Map Camera Commands: 
+info : Show current camera info
+useV2 [0-false | 1-true] :
+0x228f7f4	mapresize	Resize the map to a given number of episodes using the episode cap feature (min 
+0x228f918	mapvisit	Jump to an episode: mapvisit [ep_number]
+0x22bfe70	crushPushRequestPlugin	Cleared promoted extension
+
+0x22c0488	sagaprio	Lists and overrides priorities of saga extensions.
+	Format:
+		sagaprio list - li
+0x22c20d0	varpromo	Lists and overrides list of promoted extensions.
+	Format:
+	varpromo [list|l] - l
+0x22cac60	popup_name	Name of the popup to open
+0x22f2f14	unds	SeedPoolCoordinator: seed can not be negative
+0x2304618	san	Usage:
+	san sp - show popup
+	san orc - onboarding reset cooldown
+	san osc [secon
+0x230c94c	socialhub	Social Hub Config Command
+0x230cb68	club_tab_disable	Disable club tab
+0x23127ac	onboarding_info	Prints the value
+0x2312ad0	tooltip_stored_cuids	Tooltip stored cuids
+0x2313550	print_fb_connect_status	Prints the facebook connection status
+0x2313758	besties_onboarding_reset	Resets besties onboarding. Player must not have any besties for command to work.
+0x231390c	besties_onboarding_info	Prints status on besties onboarding. If player is friendless, status will be fal
+0x2313ad8	scroll_widget_threshold	Sets roughly number of items, player needs to scroll trough before widget become
+0x2338010	tud	Display all shared data
+0x23380ac	tudupd	Do random stuff
+0x2338148	tudclear	Clear vectors
+0x23381e4	tudreset	Recreate test containers
+0x2338280	tudhot	Mark tud 2 hot
+0x233831c	tudstats	Container statistics
+0x23383b8	tudsyncmodified	Sync modified containers
+0x2338450	tudsync	Sync all containers
+0x23426cc	themis	UnregisterCommand failed.
+0x23475a4	clearqueue	Toast queue cleared
+0x23481dc	toast_new	Toast system console commands.
+ create - create a toast with set toast id: <toas
+0x23482c8	create_multiple	Shows current content of toast queue.
+0x234b8ec	toast	Usage: toast [type] [icon] [enableButtons] [message](...)|([from] [to] [max])
+0x237a4f8	ads_att_reminder	Att reminder
+0x237a56c	config_override	PluginParameters override
+0x237af50	att_consent_shown_timestamp	Fake Att Consent Shown
+0x237b834	ot_consent	OT consent
+0x237c060	pacing_att	Pacing ATT
+0x237c20c	pacing_ot	Pacing OT
+0x237de70	done	Incorrect number of parameters
+0x237edb4	opted_in	Incorrect number of parameters
+0x2386a0c	ads_candy_royale	Ads Candy Royale
+0x238c1d0	ufoDeliveryCount	UFO delivery count
+0x238c220	ufo_delivery_count	Set UFO delivery count
+0x238c470	gameStreak	Game rounds losing streak
+0x238c4d8	losestreak	Set EGP losing streak
+0x238c788	losingStreakAds	Losing streak with ads
+0x238ca94	resolve_rewards	Resolve rewards
+0x238cc58	print_rewards	Print rewards
+0x238cdf4	egpstreak	EGP Streak
+0x23a2a8c	ads_hard_level_offer	Ads Hard Level Offer
+0x23abfec	ads_map_balloon	Map Balloon
+0x23c2ea0	ads_prelevel	Ads PreLevel
+0x23c2f18	cta_counter	Cta Counter
+0x23c30f4	cta_countdown	Countdown limiter
+0x23c32d8	starter_pack	Starter pack limiter
+0x23d6068	ads_quest	Ads Quest
+0x23d673c	restart_quest	Restart quest
+0x23d7a58	ftue_reminder	PinSystemPinExtensionTooltip::Show(ModId, const STooltipData &, CSceneObject *, 
+0x23e2b48	ads_skip_an_ad	Skip An Ad
+0x23ebe94	ads_rewards_tiering	Ads Rewards Tiering
+0x23ec768	time_offset	Time to offset demotion time point
+0x243caa0	probability	The partial skin spawn probability
+0x2449a18	collection	Which registered candy to use
+0x2449a90	level_type	Level type to use for effect
+0x244a1bc	require_latest_level	True to require latest level, false otherwise
+0x244a810	require_first_attempt	True to require first attempt, false otherwise
+0x244ae68	require_hard_level	True to require hard level, false otherwise
+0x244b4ac	is_partial_reskin	True to set as partial reskin, false otherwise
+0x245378c	board_game	EVEL ACTION
+0x24537d4	mic_egp	Leaderboard Event
+0x2462144	reset_pawn	Reset pawn position
+0x2462368	progress_bar	Set progress bar value
+0x24626bc	dice_set_number_in_inventory	Set number of dice in inventory
+0x2462a68	clear_instance_storage	Clear instance storage
+0x2462acc	velTrigger.cpp	Enable/Disable the pawn tracking feature
+0x2462dd4	set_end_screen_not_shown	Force the end screen to show.
+0x2462f88	force_next_mystery_type	Force the tile type of the next mystery tile.
+0x2462fdc	tile_type	The tile type to force.
+0x246b230	addCoinsCommandButton	Add Coins
+0x246b634	saga_progression_config_title	SAGA PROGRESSION CONFIG
+0x246b86c	saga_progression_title	SAGA PROGRESSION
+0x246fd34	tile_container	Number of tile containers must be just one.
+0x246fda8	pawn	Number of pawn objects must be just one.
+0x246fe10	pb_internal_container	Cannot find progress bar container.
+0x246fe40	end_reward_chest	Number of end_chest objects must be one
+0x247d374	gb_set_accumulated_gold_bars	Set number of accumulated gold bars for current tier
+0x247d554	gb_reset_received_gold_bars	Reset received gold bars counter
+0x24aa698	bonus_round	Bonus Round feature
+0x24ab524	reset_ftue	Resets ftue seen
+0x24aba3c	reset_cooldown	Resets Cooldown Period
+0x24abb14	show_reward_popup	Displays Bonus Round Reward Popup
+0x24abba0	show_state	Shows state of bonus round feature
+0x24ac138	show_rewards	Shows all pre-game reward combinations and post-game rewards
+0x24ac680	deliver_rewards	Delivers reward combination by type and index
+0x24ac6a4	type	Reward type to deliver
+0x24ad780	show_intro_tutorial	Displays intro popup with full tutorial timeline
+0x24ad898	show_intro_popup	Displays intro popup with fast-forward timeline
+0x24ada3c	show_intro_popup_custom	Displays intro popup with specific reward set
+0x24ada84	reward_set	Reward set to display
+0x24ae91c	show_reward_claim	Displays post-win reward claim screen
+0x24aed10	force_activate	Forces Bonus Round activation with specific reward set (bypasses eligibility)
+0x24af0f0	set_reward_index	Sets reward combination index for testing
+0x24afadc	check_eligibility	Displays detailed eligibility check breakdown
+0x24affa4	set_cooldown_offset	Sets cooldown to specific time offset (e.g., 2h, 30m, -1h)
+0x24affb4	time	Time offset (e.g., 2h, 30m, -1h)
+0x24b0ca4	show_next_rewards	Previews next N reward combinations in rotation sequence
+0x24b0cb4	count	Number of upcoming combinations to display (1-10)
+0x24b1294	end_popup_flow	Ends current BR popup flow and resets state
+0x24b135c	set_tutorial	Sets tutorial seen state explicitly
+0x24b1388	state	Tutorial state: 'seen' or 'unseen'
+0x24b1524	quick_complete	Instantly completes a full Bonus Round cycle (deliver + rotate + reset)
+0x24b17dc	simulate_player_state	Simulates player state parameter overrides for testing
+0x24b17ec	params	Space-separated key=value pairs (e.g., cooldown_timer_sec=3600 number_of_lives=5
+0x24b2e3c	clear_simulated_state	Clears simulated player state overrides
+0x24b2f04	override_post_game_rewards	Overrides post-game rewards count for UI layout testing (heart always included)
+0x24c1dac	false	Incorrect number of parameters
+0x24c1db4	true	Incorrect number of parameters
+0x24c5878	firstTime	Should be set as true or false
+0x24c5e34	booster_flavours	UnregisterCommand failed.
+0x24d2150	deltaSeconds	Time offset in seconds
+0x24d7538	buildabundle	Build a bundle
+0x24df6ec	errorCode	CleanCancelledObjects() [T = Pins::IPinsTabTooltipListener *]
+0x24e216c	key	SC - 2
+0x24e2198	accessType	SC - 2
+0x24f0694	reason	CleanCancelledObjects() [T = Pins::IPinsTabTooltipListener *]
+0x24f3d6c	is_enabled	Should be enabled?
+0x24f40b8	fake_config	Configure the fake server
+0x24f419c	tiers_enabled	Enable/Disable tiers
+0x24f4d88	useGoldbarMilestones	Should use goldbar milestone rewards?
+0x24f5178	setSkipCooldownFree	Should set skip cooldown free?
+0x24f74c8	timer_complete	Set a timer to 0
+0x24f7b5c	remainingtime	Remaining time
+0x24f7f38	is_completed	Is tutorial completed?
+0x24f82b8	tiers_tutorial_completed	Set the tutorial (FTUX) for tiers as seen or not seen
+0x24f9100	current_tier	Current Tier
+0x24f9158	set_current_tier	Modifies current tier
+0x24f9478	set_milestone_ftue_completed	Set the milestone FTUE claim scene as seen or not seen
+0x24f9808	cooldown_skip	Commands related to Cooldown Skip
+0x24fa860	set_config	Commands to override the value of plugin config parameters
+0x24fa8f8	is_opt_in_forced	Change the {} parameter value
+0x24fac9c	close_cooldown_time	Change the {} parameter value
+0x24fb038	max_opt_out_count	Change the {} parameter value
+0x24fb3d4	show_milestone_foreshadowing	Change the {} parameter value
+0x24fbb1c	animations_speed_multiplier	Change the {} parameter value
+0x24fbee0	intro_popup_skin	Change the {} parameter value (forced opt-in only)
+0x24fc390	previous_jackpot_amount	Change the {} parameter value
+0x24fc730	first_sync_delay_seconds	Change the {} parameter value
+0x24fc754	ff	Change the {} parameter value
+0x24fcac8	is_toast_enabled	Change the {} parameter value
+0x24fd58c	show_widget	Change the {} parameter value
+0x24fd928	widget_active_state_display	Change the {} parameter value
+0x24fd94c	stMessage	Change the {} parameter value
+0x24fdde4	displayProgressPopups	Change the {} parameter value
+0x24fe828	disabled	Incorrect number of parameters
+0x24fe830	enabled	Incorrect number of parameters
+0x24ff270	mock	Incorrect number of parameters
+0x24ff27c	free	Incorrect number of parameters
+0x24ffc14	completed	Tiers tutorial FTUE is 
+0x24ffd50	introduced	Competitors Available: 
+0x250069c	seen	PlayerStreak is: 
+0x254ab04	set_amount_candies_lower	Set lower bound for amount of candies to spawn from cannons.
+0x254af4c	set_amount_candies_upper	Set upper bound for amount of candies to spawn from cannons.
+0x254b388	set_amount_colors_lower	Set lower bound for amount of colors to spawn from cannons.
+0x254b7d4	set_amount_colors_upper	Set upper bound for amount of colors to spawn from cannons.
+0x254c04c	set_activation_threshold	Set maximum allowed percentage of objectives left for activation (0.0 - 1.0).
+0x25689bc	daily_stats	Daily global stats
+0x2582ca8	prompted	Invalid Flow state
+0x25830ac	rewarded	P3AD rewarded
+0x25832e4	finished	P3AD finished
+0x258e794	anticheat	Commands for the anti-cheat system
+0x25a6948	committedData	Invalid or missing key
+0x25a6fc8	dirtyData	Missing type
+0x25a6fdc	committedDataVersion	Missing type
+0x25b2720	claims	Usage:
+claims
+    <claimId/claimIdx>         - Show information about a claim
+  
+0x25c80d8	reward_view	Reward View
+0x25cd97c	gifting2_failed	Missing PopUp
+0x25da994	ack	Get values for a specific data provider
+0x25da9dc	provider_name	Name of the data provider
+0x25dbc6c	product_group	Name of product group to set
+0x25f4ae4	ungroup	Itemtype needs to be a positive number
